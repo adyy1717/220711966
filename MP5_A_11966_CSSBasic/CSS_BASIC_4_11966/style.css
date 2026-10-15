@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(225, 248, 255);
+    min-height: 100vh;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Mengatur judul utama */
+h1 {
+    background: linear-gradient(to right, #00b3e4, #005fd3);
+    color: white;
+    padding: 25px 0;
+    margin: 0;
+    box-shadow: 0 2px 5px grey;
+}
+
+/* Mengatur paragraf */
+p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+/* Mengatur tautan gambar */
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+}
+
+/* Mengatur gambar logo */
+img {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Efek ketika kursor diarahkan ke gambar */
+a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Tampilan untuk layar kecil */
+@media screen and (max-width: 500px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}
