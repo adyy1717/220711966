@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+form {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    vertical-align: middle;
+}
+
+tr td:first-child {
+    width: 30%;
+    background-color: #eff6ff;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    box-sizing: border-box;
+    padding: 9px;
+    border: 1px solid #bfc7d1;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    max-width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+}
+
+select {
+    min-width: 180px;
+    background-color: #ffffff;
+}
+
+input[type="file"] {
+    max-width: 100%;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    max-width: 350px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+input[type="submit"] {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 11px 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    td {
+        padding: 8px;
+    }
+
+    tr td:first-child {
+        width: 35%;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}

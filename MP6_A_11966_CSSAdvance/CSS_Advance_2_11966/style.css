@@ -1,0 +1,163 @@
+
+/* Pengaturan halaman */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f7;
+    color: #333333;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: #1e40af;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* Judul bagian */
+h2 {
+    color: #1d4ed8;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-left: 5px solid #2563eb;
+    padding-left: 10px;
+}
+
+/* Formulir */
+form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+}
+
+/* Sel tabel */
+td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* Kolom keterangan */
+td:first-child {
+    width: 32%;
+    background-color: #eff6ff;
+}
+
+/* Input teks */
+input[type="text"] {
+    width: 95%;
+    padding: 9px;
+    border: 1px solid #b6c2d2;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Pilihan program studi */
+select {
+    padding: 9px;
+    border: 1px solid #b6c2d2;
+    border-radius: 5px;
+    background-color: #ffffff;
+    min-width: 200px;
+}
+
+/* Area alasan mengikuti seminar */
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #b6c2d2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+}
+
+/* Unggah bukti pembayaran */
+input[type="file"] {
+    max-width: 100%;
+    padding: 5px;
+}
+
+/* Radio button dan checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Label */
+label {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Efek saat input dipilih */
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Tombol simpan */
+input[type="submit"] {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efek hover tombol */
+input[type="submit"]:hover {
+    background-color: #1e40af;
+}
+
+/* Tampilan layar kecil */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    td {
+        padding: 8px;
+    }
+
+    select {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
